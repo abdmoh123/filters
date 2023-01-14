@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Abdul/OneDrive - Newcastle University/Stage 4/E3004.1 ECAD Project/Project files
+# Install script for directory: C:/Users/Abdul/OneDrive - Newcastle University/Stage 4/EEE8106 ECAD Project/Project files
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project_files")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Digital_filterer")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Abdul/OneDrive - Newcastle University/Stage 4/E3004.1 ECAD Project/Project files/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Abdul/OneDrive - Newcastle University/Stage 4/EEE8106 ECAD Project/Project files/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -167,7 +167,7 @@ void run_tests() {
     }
     cout << "Sine sample rate = " << sine_sampling_frequency << endl;
 
-    string sine_file_name = "Noisy sine";
+    string sine_file_name = "noisy_sine";
     // writes the generated data to a .csv file
     write_csv_file(
         (sine_file_name + ".csv"),
